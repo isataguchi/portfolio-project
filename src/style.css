@@ -142,13 +142,15 @@
 .content a {
   text-align: left;
   text-decoration: none;
-  color: var(--branding-color);
   font-family: var(--default-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 30px;
 }
 
+.color-white {
+    color: white !important; 
+}
 .email-link {
   display: flex;
   justify-content: center;
@@ -182,20 +184,13 @@
     display: none;
   }
 
-  .project-container h1 {
-    font-size: 48px;
-  }
-  .project-container h3 {
-    font-size: 24px;
-  }
-
   .photo-about {
     margin-bottom: 25px;
   }
-  .content-container h1,
-  h3,
-  p {
+  .content {
     text-align: center;
+  }
+}
   }
   .about-me-photo {
     margin-top: 15px;
@@ -204,4 +199,39 @@
 
 .contact-footer {
   margin: 100px 0 100px 0;
+}
+
+.logo {
+  max-width: 160px;
+  max-height: 42px;
+  padding-left: 10px;
+}
+
+nav {
+  padding: 20px 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-right: 15px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
+
+nav li.active a {
+  color: var(--branding-color);
+}
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: var(--text-color);
 }
