@@ -89,10 +89,12 @@ h3 {
   .btn-branding-outline {
     width: 200px;
   }
-  .photo-about {
-    max-width: 100%;
-  }
+
   .hero {
     padding: 80px 20px;
+  }
+
+  .photo-project {
+    display: none;
   }
 }
