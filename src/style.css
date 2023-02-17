@@ -110,18 +110,19 @@
   display: block;
 }
 
-.about-me {
-  margin-top: 140px;
+.content-container {
+  padding: 160px 20px;
 }
-.about-me h1 {
+.content-container h1 {
   font-size: 64px;
   font-family: var(--heading-font-family);
   font-weight: bold;
   margin-top: 120px;
   color: var(--secondary-color);
+  line-height: 80px;
 }
 
-.about-me h3 {
+.content-container h3 {
   font-size: 18px;
   font-family: var(--default-font-family);
   font-weight: bold;
@@ -129,18 +130,13 @@
   color: var(--secondary-color);
 }
 
-.about-me p {
+.content p {
   text-align: left;
-  color: black;
-}
-
-.about-paragraphs {
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-  margin: 20px 0 40px 0;
+  color: var(--text-color);
+  font-family: var(--default-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
 }
 
 .email-link {
@@ -178,12 +174,13 @@
   font-family: var(--default-font-family);
   font-weight: normal;
 }
-@media (max-width: 576px) {
+
+@media (max-width: 768px) {
   .hero h1 {
     font-size: 48px;
   }
 
-  .row p {
+  .content p {
     font-size: 14px;
   }
 
@@ -209,7 +206,7 @@
   .photo-about {
     margin-bottom: 25px;
   }
-  .about-me h1,
+  .content-container h1,
   h3,
   p {
     text-align: center;
