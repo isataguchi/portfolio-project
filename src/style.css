@@ -123,7 +123,7 @@
 }
 
 .content-container h3 {
-  font-size: 18px;
+  font-size: 24px;
   font-family: var(--default-font-family);
   font-weight: bold;
   margin-top: 20px;
@@ -133,6 +133,16 @@
 .content p {
   text-align: left;
   color: var(--text-color);
+  font-family: var(--default-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.content a {
+  text-align: left;
+  text-decoration: none;
+  color: var(--branding-color);
   font-family: var(--default-font-family);
   font-weight: 500;
   font-size: 14px;
@@ -149,30 +159,6 @@
 
 .email-link:hover {
   text-decoration: underline;
-}
-.project-container {
-  margin: 20px;
-  border-radius: 8px;
-}
-.project-container h1 {
-  font-size: 96px;
-  font-family: var(--heading-font-family);
-  font-weight: bold;
-  margin-top: 120px;
-  color: var(--secondary-color);
-}
-.project-container h3 {
-  font-size: 38px;
-  font-family: var(--default-font-family);
-  font-weight: bold;
-  color: var(--secondary-color);
-}
-
-.project-container p {
-  border-radius: 8px;
-  padding: 60px 0 60px 0;
-  font-family: var(--default-font-family);
-  font-weight: normal;
 }
 
 @media (max-width: 768px) {
