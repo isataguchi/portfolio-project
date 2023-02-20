@@ -13,7 +13,7 @@
 .hero {
   background: var(--primary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .hero h1 {
@@ -48,7 +48,7 @@
   font-size: 18px;
   font-weight: medium;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 10px 30px;
 }
 
 .row h2 {
@@ -111,13 +111,13 @@
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content-container h1 {
   font-size: 64px;
   font-family: var(--heading-font-family);
   font-weight: bold;
-  margin-top: 120px;
+  margin-top: 60px;
   color: var(--secondary-color);
   line-height: 80px;
 }
@@ -148,7 +148,6 @@
   line-height: 30px;
 }
 
-
 .email-link {
   display: flex;
   justify-content: center;
@@ -164,47 +163,52 @@
 }
 
 footer {
-    margin: 60px 0;
+  margin: 60px 0;
 }
 
 footer .contact-box {
-    background: var(--primary-color);
-    padding: 20px 120px;
-    border-radius: 8px;
+  background: var(--primary-color);
+  padding: 30px 120px;
+  border-radius: 8px;
 }
 
 footer .social-links a {
-    margin: 0 20px;
-    color: var(--branding-color);
-    background: var(--primary-color);
-    padding: 10px 14px;
-    font-size: 18px;
-    border-radius: 50%;
-    transition: all 150ms ease-in-out;
-
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--primary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
 }
 
 h4 {
-    font-family: var(--heading-font-family);
-    font-size: 48px;
-    font-weight: bolder;
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: bolder;
 }
 
 footer p {
-    font-size: 20px;
-    font-weight: 500;
-    margin: 0;
-    line-height: 1.5;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.5;
 }
 footer .social-links a:hover {
-    color: white;
-    background: var(--branding-color);
-
+  color: white;
+  background: var(--branding-color);
 }
 
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 48px;
+  }
+
+  .content-container {
+    padding: 10px 10px;
+  }
+  .content-container h1 {
+    margin-top: 20px;
   }
 
   .content p {
@@ -229,11 +233,21 @@ footer .social-links a:hover {
   .content {
     text-align: center;
   }
+
+  li a {
+    font-size: 13px;
+  }
+
+  footer {
+    margin: 10px;
+  }
+  .email-link a {
+    margin-bottom: 10px;
+  }
 }
-  }
-  .about-me-photo {
-    margin-top: 15px;
-  }
+
+.about-me-photo {
+  margin-top: 15px;
 }
 
 .contact-footer {
@@ -247,7 +261,7 @@ footer .social-links a:hover {
 }
 
 nav {
-  padding: 20px 0;
+  padding: 10px 10px;
 }
 ul {
   padding: 0;
@@ -257,7 +271,7 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
-  margin-right: 15px;
+  margin-left: 15px;
   font-family: var(--default-font-family);
   font-weight: bold;
 }

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Patricia is a fron-end engineer based in Portugal"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700&display=swap"
@@ -34,37 +35,47 @@
       name="description"
       content="A project of the front-end developer student - Isadora Taguchi"
     />
-    <title>Portfolio - Isadora Taguchi</title>
+    <title>Front-end developer Patricia Pereira - Work portfolio</title>
   </head>
   <body>
-        <div class="container"></div>
     <nav class="d-flex justify-content-between">
-        <img src="/images/logo.png" alt="SheCodes logo" class="logo d-none d-md-block" />
-        <img src="/images/logo-small.png" alt="SheCodes logo" class="logo d-block d-md-none">
-        <ul>
-          <li> <a href="/" > Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li class="active"><a href="/work.html">Projects</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+      <a href="/" title="Homepage">
+      <img
+        src="/images/logo.png"
+        alt="SheCodes logo"
+        class="logo d-none d-md-block"
+      />
+      <img
+        src="/images/logo-small.png"
+        alt="SheCodes logo"
+        class="logo d-block d-md-none"
+      />
+      </a>
+    <ul>
+          <li ><a href="/" title="Homepage"> Home</a></li>
+
+          <li ><a href="/about.html" title="About Me">About Me</a></li>
+
+          <li class="active"><a href="/work.html" title="Work Portfolio">Projects</a></li>
+          <li ><a href="/contact.html" title="Contact me">Contact</a></li>
         </ul>
     </nav>
-    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mt-5 mb-5">Take a look at what I've been working on!</h1>
         <div class="row mt-5">
           <div class="col-md-6 mb-4">
             <img
-              src="/images/first-project.png"
-              alt="my first project - adopt a stray dog"
+              src="/images/yogurt.png"
+              alt="Yogurt project image"
               class="img-fluid mb-3 rounded photo-about"
             />
-            <h3 class="text-center">Adopt a Stray dog</h3>
+            <h3 class="text-center">Yogurt Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
           <div class="col-md-6 mb-4">
             <img
-              src="images/vanilla-weather-app.png"
+              src="images/weather-app.png"
               alt="image of the weather app project"
               class="img-fluid mb-3 rounded photo-about"
             />
@@ -78,17 +89,49 @@
         <div class="row">
           <div class="col-md-6 mb-4">
             <img
-              src="images/world-clock-project.png"
-              alt="world clock project image"
+              src="images/dictionary.png"
+              alt="dictionary project image"
               class="img-fluid mb-3 rounded photo-about"
             />
-            <h3 class="text-center">World Clock Project</h3>
+            <h3 class="text-center">Dictionary</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS and JavaScript
             </p>
           </div>
+          <div class="col-md-6 mb-4">
+            <img
+              src="images/translation-app.png"
+              alt="translation app project image"
+              class="img-fluid mb-3 rounded photo-about"
+            />
+            <h3 class="text-center">Translation</h3>
+            <p class="text-center text-muted">
+              Built with HTML, CSS and JavaScript
+            </p>
+          </div>
+          </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+
+          <div>
+            <a href="contact.html" class="btn btn-branding mt-3">Contact Me</a>
+          </div>
+        </div>
+        <a href="mailto:patricia@gmail.com" class="email-link mb-5" title="Contact Me"
+          >patricia@gmail.com</a
+        >
+     <div class="social-links text-center mb-5">
+          <a href="#"><i class="fab fa-instagram" title="Instagram"></i></a>
+          <a href="#"><i class="fab fa-github" title="Github"></i></a>
+          <a href="#"><i class="fab fa-facebook" title="Facebook"></i></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
